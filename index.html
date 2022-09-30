@@ -5,27 +5,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first CSS website</title>
+    <title>A TRIBUTE PAGE</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="style.css">
     <link rel="import" href="component.html">
 </head>
 
 <body>
-    <Main class="main">
+    <main class="main">
         <h1> Dr. Norman Borlaug</h1>
-        <center>
-            <p style="color:rgb(192, 189, 189);">The man who saved a billion lives</p>
-        </center>
-        <figure class="image"><img src="Images/tribute-page-main-image.jpeg" alt="man in bush"
-                style=" display: block;margin: 0 auto; padding-top: 15px;  ">
+        <p class="mine">The man who saved a billion lives</p>
+
+        <figure class="image">
+            <div class="i">
+                <img src="Images/tribute-page-main-image.jpeg" alt="man in bush">
+            </div>
             <figcaption class="caption">Dr. Norman Borlaug, third from the left, trains biologists in Mexico on how to
                 increase wheat yields-part of his life-long war on hunger.</figcaption>
         </figure>
 
         <section>
-            <center>
-                <p style="font-size:90 ;"><b>Here's a time line of Dr. Borlaug's life:</b> </p>
-            </center> <br>
+            <h2><b>Here's a time line of Dr. Borlaug's life:</b> </h2>
             <div class="list">
                 <ul>
                     <li><strong>1914</strong> - Born in Cresco, lowa</li> <br>
@@ -63,27 +63,25 @@
                         land. Says that GM crops are not inherently dangerous because "we've been genetically modifying
                         plants and animals for a long time. Long before we called it science, people were selecting the
                         best breeds."</li><br>
-                    <li><strong>2009</strong> - dies at the age of 95.</li><br>
+                    <li><strong>2009</strong> - dies at the age of 95.</li>
                 </ul>
             </div>
 
 
             <blockquote
-                cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm"
-                style=" display:block; margin-left: 270px; margin-block-end: auto;">
+                cite="http://news.rediff.com/report/2009/sep/14/pm-pays-tribute-to-father-of-green-revolution-borlaug.htm">
                 <p> ""Borlaug's life and achievement are testimony to the far-reaching contribution that one man's
                     towering intellect, persistence and scientific vision can make to human peace and progress."'</p>
+                <br>
                 <cite> -- Indian Prime Minister Manmohan Sing</cite>
-            </blockquote><br><br>
-
-            <h3 class="height">If you have time, you should read more about this incredible human being on his <a
-                    href="https://en.wikipedia.org/wiki/Norman_Borlaug" style="color: rgba(0, 140, 255, 0.712);">Check
-                    Wikipedia for more.</a> </h3><br>
-
-
-            <footer style="color: #eee; text-align: center;">Designed by Ngumezi Snowblaq</footer>
+            </blockquote>
         </section>
-    </Main>
+        <h3 class="height">If you have time, you should read more about this incredible human being on his <a
+                href="https://en.wikipedia.org/wiki/Norman_Borlaug">Check
+                Wikipedia for more.</a> </h3>
+
+        <footer> Designed by Ngumezi Snowblaq</footer>
+    </main>
 </body>
 
 </html
